@@ -68,9 +68,8 @@ while(True):
         sleep(2)
     except:
         break
-    print(len(df))
 
 
 # after final calculations data is stored in CSV format 
-csv_file_path = 'final_data_.csv'
+csv_file_path = 'final_data.csv'
 df.to_csv(csv_file_path, index=False)
